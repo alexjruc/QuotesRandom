@@ -6,7 +6,7 @@ import Card from './components/Card';
 
 function App() {
 
-  const backgrounds = ["img1", "img2", "img3"]
+  const backgrounds = ["img1", "img2", "img3", "img4"]
 
   const [quote, setQuote] = useState(getRandomElements(quotes))
   const [bg, setBg] = useState(getRandomElements(backgrounds))
