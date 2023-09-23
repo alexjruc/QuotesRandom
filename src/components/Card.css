@@ -1,0 +1,56 @@
+
+
+.card {
+    font-family: 'Digital Numbers', sans-serif;
+                                                                                                
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    text-align: center;
+    place-items: center;
+}
+
+.card_phrase{
+    max-width: 300px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.card_phrase h1 {
+    color: white;
+    font-size: 2rem;
+}
+.card_phrase p {
+    background-color: hsl(0, 0%, 100%, 50%);
+    font-size: 0.8rem;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+}
+
+.card_btn {
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    border: none;
+}
+
+.bx-refresh {
+    font-size: 1.5rem;
+}
+
+.card_author {
+    color: white;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+}
+
+.moon {
+    width:250px;
+    height: 250px;
+    flex-shrink: 0;
+    fill: radial-gradient(104.98% 104.98% at 31.89% -4.64%, #FFF 0%, rgba(211, 245, 255, 0.81) 18.76%, rgba(151, 232, 255, 0.53) 46.74%, rgba(108, 223, 255, 0.29) 70.59%, rgba(81, 217, 255, 0.11) 89.1%, rgba(71, 215, 255, 0.00) 100%);
+    opacity: 0.5;
+}
