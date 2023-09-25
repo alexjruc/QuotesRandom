@@ -1,11 +1,11 @@
-
 .card {
     font-family: 'Digital Numbers', sans-serif;
-    min-height: 100vh;
+    height: 100vh;
     display: grid;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: 4fr 1fr;
     text-align: center;
     place-items: center;
+    overflow: hidden;
 }
 
 .card_phrase{
@@ -45,12 +45,26 @@
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    
+}
+
+.moon{
+    position: absolute;
+    background : var(--colorMoon);
+    width: 300px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    bottom: -250px;
+    left: -150px;
+    box-shadow: -3px -5px 10px 5px  var(--borderMoon);
 }
 
 .card_author span{
+    font-family: 'Fredoka', sans-serif;
+    width: 300px;
     position: absolute;
-    bottom: 0;
-    left: 20%;
+    bottom: -50px;
+    left: -150px;
 }
 
 @media (min-width: 700px) {

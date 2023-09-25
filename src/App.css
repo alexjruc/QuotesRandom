@@ -4,17 +4,21 @@
 }
 
 .app.img1{
-    background-image: url(/img1.jpg);   
+    background-image: url(/img1.jpg); 
+    --borderMoon : hsl(122, 100%, 49%, 0.3);
 }
 
 .app.img2{
     background-image: url(/img2.jpg);
+    --borderMoon : hsla(249, 80%, 62%, 0.3);
 }
 
 .app.img3{
     background-image: url(/img3.jpg);
+    --borderMoon : hsla(180, 78%, 60%, 0.3);
 }
 
 .app.img4{
     background-image: url(/img4.jpg);
+    --borderMoon : hsla(32, 100%, 49%, 0.3);
 }

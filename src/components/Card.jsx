@@ -12,7 +12,9 @@ const Card = ({ quote, handleChange}) => {
                 </button>
             </article>
             <footer className="card_author">
-                <img src="/moon.svg" alt="" />
+                {/* <img src="/moon.svg" alt="" /> */}
+                
+                <div className="moon"></div>
                 <span>Fuente: {quote.author}</span>
             </footer>
         </section>

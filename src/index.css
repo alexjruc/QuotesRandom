@@ -1,4 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/digital-numbers');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+:root{
+    --colorMoon : radial-gradient(65.34% 65.34% at 45.67% 1.56%, #FFF 0%, rgba(211, 245, 255, 0.81) 18.76%, rgba(151, 232, 255, 0.53) 46.74%, rgba(108, 223, 255, 0.29) 70.59%, rgba(81, 217, 255, 0.11) 89.1%, rgba(71, 215, 255, 0.00) 100%);
+}
 
 html {
     box-sizing: border-box;
